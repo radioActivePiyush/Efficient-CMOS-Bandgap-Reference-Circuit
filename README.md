@@ -64,6 +64,21 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
+    <th><img src="images/case1_sch.PNG"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 1: Case 1 schematic</td>
+  </tr>
+</tbody>
+</table>
+</center>
+
+<center>
+<table>
+<thead>
+  <tr>
     <th><img src="images/case1_temp_var.PNG"></br></th>
     <th><img src="images/case1_supply_var.PNG"></br></th>
   </tr>
@@ -77,12 +92,101 @@ Design and comparison of both of the above improvement methods is also done here
 </table>
 </center>
 
-
 #### • Case 2: Propposed BGR
-![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
+<center>
+<table>
+<thead>
+  <tr>
+    <th><img src="images/case2_sch.PNG"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 7: Case 2 schematic</td>
+  </tr>
+</tbody>
+</table>
+</center>
+
+<center>
+<table>
+<thead>
+  <tr>
+    <th><img src="images/case2_temp_var.PNG"></br></th>
+    <th><img src="images/case2_supply_var.PNG"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 9: Temperature Variation</td>
+    <td>Fig. 10: Supply Variation</td>
+  </tr>
+</tbody>
+</table>
+</center>
 
 #### • Case 3: Propposed BGR with cascoded current mirror 
-![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
+<center>
+<table>
+<thead>
+  <tr>
+    <th><img src="images/case3_sch.PNG"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 11: Case 3 schematic</td>
+  </tr>
+</tbody>
+</table>
+</center>
+
+<center>
+<table>
+<thead>
+  <tr>
+    <th><img src="images/case1_temp_var.PNG"></br></th>
+    <th><img src="images/case1_supply_var.PNG"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 12 : Temperature Variation</td>
+    <td>Fig. 13 : Supply Variation</td>
+  </tr>
+</tbody>
+</table>
+</center>
 
 #### • Case 4: Propposed BGR with symetrically biased cirrent mirror
-![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
+<center>
+<table>
+<thead>
+  <tr>
+    <th><img src="images/case4_sch.PNG"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 14: Conventional BGR schematic</td>
+  </tr>
+</tbody>
+</table>
+</center>
+
+<center>
+<table>
+<thead>
+  <tr>
+    <th><img src="images/case4_temp_var.PNG"></br></th>
+    <th><img src="images/case4_supply_var.PNG"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 15: Temperature Variation</td>
+    <td>Fig. 16: Supply Variation</td>
+  </tr>
+</tbody>
+</table>
+</center>
