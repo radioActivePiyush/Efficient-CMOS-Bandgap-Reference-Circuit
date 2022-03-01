@@ -252,6 +252,8 @@ In this case current consumption is slightly increased as compared to previous c
 </center></br>
 </br>
 ### Table for summary of key design aspects in above discussed cases
+
+
 | Case                   | Units | case1 | case2 | case3 | case4 |
 |------------------------|-------|-------|-------|-------|-------|
 | Supply Current         | uA    | 12.85 | 6.78  | 4.22  | 6.97  |
