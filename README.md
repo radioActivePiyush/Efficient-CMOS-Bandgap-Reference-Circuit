@@ -16,16 +16,12 @@
 # Introduction:
 
 In many applications as stable voltage reference is needed  which is independent of power supply and temperature  variations. BGRs are extensively employed as reference  circuits as they have weak dependence on process,  temperature and voltage variations. There are mainly two  types of BGR curcuits:
- 1. *Using operational amplifier (opamp)*
-Use of op-amps have some  disadvantages over current mirrors like 
-(a) op—amps require  more power which can be constraint in low power applications. 
-(b) require more number of transistors which makes it area inefficient. 
-2. *Using current mirror.* 
-Current mirror based BGRs lacks in  terms of power supply rejection (PSR) as compared to opamp based design but it is simpler to design, requires less power and area with only marginal decrease in performance which makes it an attractive choice for modern applications. 
+ 1. *Using operational amplifier (opamp)* :Use of op-amps have some  disadvantages over current mirrors like op—amps require  more power which can be constraint in low power applications and require more number of transistors which makes it area inefficient. 
+2. *Using current mirror* : Current mirror based BGRs lacks in  terms of power supply rejection (PSR) as compared to opamp based design but it is simpler to design, requires less power and area with only marginal decrease in performance which makes it an attractive choice for modern applications. 
 The PSR of simple current mirror (CM) based BGR can be improved by using cascoded current mirror (CCM) [2] or symetrically matched current mirror (SMCM) [3]
 
-#Proposed Bandgap Reference:
-Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison with traditional circuit 1(a). From the figure it  is clear that proposed circuit uses one bipolar device less in reference branch. The BJT Q2 is used for generation of PTAT voltage across the resistor R1 and voltage across it adds to  VREF. This modification reduces the total current and power consumption of the circuit is reduced by 33% and area required is also reduced.
+# Proposed Bandgap Reference:
+Fig 2 shows the core part of the proposed BGR circuit [1] in comparison with traditional circuit Fig 1. From the figure it  is clear that proposed circuit uses one bipolar device less in reference branch. The BJT Q2 is used for generation of PTAT voltage across the resistor R1 and voltage across it adds to  VREF. This modification reduces the total current and power consumption of the circuit is reduced by 33% and area required is also reduced by 20%.
 <center>
 <table>
 <thead>
