@@ -4,7 +4,14 @@
 
 # Table of Contents
  * [Introduction](#Introduction)
- * [Proposed Bandgap Reference](#Proposed Bandgap Reference)
+ * [Proposed Bandgap Reference ](#ProposedBandgapReference)
+ * [Tools Used](#toolsused)
+*  [Circuit Implementation and Simulations](#CircuitImplementationandSimulations)
+* [Summary of Results](#SummaryofResults)
+* [Conclusion](#conclusion)
+*  [Author](#Author)
+*  [Acknowledgements](#Acknowledgements)
+* [References](#References)
  
 # Introduction:
 
@@ -17,7 +24,7 @@ Use of op-amps have some  disadvantages over current mirrors like
 Current mirror based BGRs lacks in  terms of power supply rejection (PSR) as compared to opamp based design but it is simpler to design, requires less power and area with only marginal decrease in performance which makes it an attractive choice for modern applications. 
 The PSR of simple current mirror (CM) based BGR can be improved by using cascoded current mirror (CCM) [2] or symetrically matched current mirror (SMCM) [3]
 
-# Proposed Bandgap Reference :
+#Proposed Bandgap Reference:
 Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison with traditional circuit 1(a). From the figure it  is clear that proposed circuit uses one bipolar device less in reference branch. The BJT Q2 is used for generation of PTAT voltage across the resistor R1 and voltage across it adds to  VREF. This modification reduces the total current and power consumption of the circuit is reduced by 33% and area required is also reduced.
 <center>
 <table>
