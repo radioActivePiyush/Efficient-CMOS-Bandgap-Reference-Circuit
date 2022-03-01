@@ -39,7 +39,7 @@ Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison wi
 Calculations of R1 and R2 can be done by the formulas given  
 below
 
-> $$R_1= V_t . ln(4) / I_x$$ 
+$$R_1= V_t . ln(4) / I_x$$ 
 >
 >where,	
 >$V_t$ = thermal voltage of the semiconductor and its value at room temperature is approximately $25.8 mV$ 
