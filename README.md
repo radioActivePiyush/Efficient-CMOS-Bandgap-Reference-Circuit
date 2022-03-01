@@ -251,6 +251,7 @@ In this case current consumption is slightly increased as compared to previous c
 </table>
 </center></br>
 </br>
+
 ### Table for summary of key design aspects in above discussed cases
 
 
