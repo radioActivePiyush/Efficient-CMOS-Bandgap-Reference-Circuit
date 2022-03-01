@@ -32,8 +32,8 @@ Fig 2 shows the core part of the proposed BGR circuit [1] in comparison with tra
 </thead>
 <tbody>
   <tr>
-    <td>Fig. 1: Conventional current mirror </td>
-    <td>Fig. 2: Conventional current mirrorn</td>
+    <td>Fig. 1: Conventional BGR Circuit </td>
+    <td>Fig. 2: Proposed BGR Circuit </td>
   </tr>
 </tbody>
 </table>
