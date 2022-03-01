@@ -39,16 +39,24 @@ Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison wi
 Calculations of R1 and R2 can be done by the formulas given  
 below
 
-    R1= Vt ln(4) / I1
-    where,	
-		Vt = thermal voltage of the semiconductor and its value at room temperature is approximately 25.8 mV
-		I1 = bias current of the Q1, Q2 transistors, here i have taken it to be 3uA.
+> $R_1= V_t . ln(4) / I_x$ 
+>
+>where,	
+>$V_t$ = thermal voltage of the semiconductor and its value at room temperature is approximately $25.8 mV$ 
+>	$I_x$ = bias current of the Q1, Q2 transistors, here i have taken it to be $3uA.$
 
-VR2 is the PTAT voltage across the resistor R2 and is given  by the equation below for the proposed architecture
+$V_{R2}$ is the PTAT voltage across the resistor $R_2$ and is given  by the equation below for the proposed architecture
 
-    VR2 = (R2/2R1) . VT . ln(4)
+> $V_R2 = (R_2/2R_1) . V_t . ln(4)$
 
 For zero temparature cofficient of the circuit derivative of VREF with respect to temperature must be zero. <br>
+
+> $dV_{REF}/dT$ = ($dV_{BE2}+\alpha V_t)/dT$ = 0
+>
+>   where,
+>   $\alpha$ = $(R_2/2R1).ln(N)$  is a constant. Assuming $dVT/dT$ = 85$m/°C$
+>   and average $dV_{BE2}/dT$ can be assumed -1.6$mV/°C$ although this can vary
+>   according to process
 
 The power-supply rejection (PSR) performance does not change significantly from the traditional selfbiased BGR. The PSR can be improved by using <br />
 (a) cascode current mirrors [2] or <br />
@@ -57,7 +65,7 @@ The power-supply rejection (PSR) performance does not change significantly from 
 <table>
 <thead>
   <tr>
-    <th><img src="images/case3_sch.PNG"  width="400" height="400"></br></th>
+    <th><img src="images/pic3.PNG"  width="400" height="400"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -83,12 +91,12 @@ Design and comparison of both of the above improvement methods is also done here
 
 # Circuit Implementation and Simulations 
 *Few considerations common to all schematic designs below*
-* For all designs PTAT currents **Ix** (labeled in schematics and figures above) were designed to be around **3u A**.
-* all mosfets use are of minimum dimensions. Although for real implementation dimensions can be increased to improve matching keeping W/L ratios same. 
-*  PNP BJT bipolar devices are used for generation of PTAT currents.
-* Ration of parallel BJTs for CTAT current generation is 4:1 for all designs.
-* Vcc (supply voltage) = 3.3v 
-* Temperature variation form -40 C to 125 C ,  Supply variation from 0v to 5v
+* For all designs PTAT currents **$I_x$** (labeled in schematics and figures above) were designed to be around **$3u A$**.
+* all mosfets use are of minimum dimensions. Although for real implementation dimensions can be increased to improve matching keeping $W/L$ ratios same. 
+*  PNP BJT bipolar devices are used for generation of CTAT currents.
+* Ration of parallel BJTs for PTAT current generation is 4:1 for all designs.
+* Vcc (supply voltage) = 3.3$v$ 
+* Temperature variation form -40 &deg;C to 125 &deg;C ,  Supply variation from 0V to 5V
 
 ## • Case 1: Conventional BGR
 <center>
@@ -282,4 +290,3 @@ IEEE Conference on Electron Devices and Solid-State Circuits, pages 945–
 Sub-1-V Design. IEEE Transactions on Very Large Scale Integration  
 (VLSI) Systems, 18(6):857–865, ISSN: 1063-8210, DOI:  
 10.1109/TVLSI.2009.2016204.
-
