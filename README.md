@@ -19,11 +19,23 @@ The PSR of simple current mirror (CM) based BGR can be improved by using cascode
 
 # Proposed Bandgap Reference :
 Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison with traditional circuit 1(a). From the figure it  is clear that proposed circuit uses one bipolar device less in reference branch. The BJT Q2 is used for generation of PTAT voltage across the resistor R1 and voltage across it adds to  VREF. This modification reduces the total current and power consumption of the circuit is reduced by 33% and area required is also reduced.
- |![Fig. 1: Conventional current mirror](images/pic2.PNG "Fig. 1: Conventional current mirror ")| ![Fig. 2: Conventional current mirror](images/pic1.PNG "Fig. 2: Conventional current mirror")|
-|--|--|
-| Fig. 1: Conventional current mirror  | Fig. 2: Conventional current mirror |
+<center>
+<table>
+<thead>
+  <tr>
+    <th><img src="images/pic2.PNG"></br></th>
+    <th><img src="images/pic1.PNG"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 1: Conventional current mirror </td>
+    <td>Fig. 2: Conventional current mirrorn</td>
+  </tr>
+</tbody>
+</table>
+</center></br> 
 
-<br />
 Calculations of R1 and R2 can be done by the formulas given  
 below
 
@@ -36,14 +48,25 @@ VR2 is the PTAT voltage across the resistor R2 and is given  by the equation bel
 
     VR2 = (R2/2R1) . VT . ln(4)
 
-For zero temparature cofficient of the circuit derivative of VREF with respect to temperature must be zero
+For zero temparature cofficient of the circuit derivative of VREF with respect to temperature must be zero. <br>
 
-    enter code here
-  
-The power-supply rejection (PSR) performance does not change significantly from the traditional selfbiased BGR. The PSR can be improved by using 
-(a) cascode current mirrors [2] or <br /> 
-(b) symmetric biasing of both the branches [3] as shown in the figure below. <br />
-![Fig. 3: Conventional current mirror](images/pic3.PNG "Fig. 3: symmetric biasing current mirror ") <br />
+The power-supply rejection (PSR) performance does not change significantly from the traditional selfbiased BGR. The PSR can be improved by using <br />
+(a) cascode current mirrors [2] or <br />
+(b) symmetric biasing of both the branches [3] as shown in the figure below.<br />
+<center>
+<table>
+<thead>
+  <tr>
+    <th><img src="images/case3_sch.PNG"  width="400" height="400"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 3: symmetric biasing current mirror based BGR circuit </td>
+  </tr>
+</tbody>
+</table>
+</center></br>
 Design and comparison of both of the above improvement methods is also done here.
 
 # Tools Used:
@@ -57,6 +80,7 @@ Design and comparison of both of the above improvement methods is also done here
 *• Synopsys 28nm PDK:*
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
+
 # Circuit Implementation and Simulations 
 *Few considerations common to all schematic designs below*
 * For all designs PTAT currents **Ix** (labeled in schematics and figures above) were designed to be around **3u A**.
@@ -66,8 +90,7 @@ Design and comparison of both of the above improvement methods is also done here
 * Vcc (supply voltage) = 3.3v 
 * Temperature variation form -40 C to 125 C ,  Supply variation from 0v to 5v
 
-
-### • Case 1: Conventional BGR
+## • Case 1: Conventional BGR
 <center>
 <table>
 <thead>
@@ -102,7 +125,7 @@ Design and comparison of both of the above improvement methods is also done here
 </table>
 </center></br>
 
-### • Case 2: Propposed BGR
+## • Case 2: Propposed BGR
 <center>
 <table>
 <thead>
@@ -136,7 +159,7 @@ Design and comparison of both of the above improvement methods is also done here
 </table>
 </center></br>
 
-### • Case 3: Propposed BGR with cascoded current mirror 
+## • Case 3: Propposed BGR with cascoded current mirror 
 <center>
 <table>
 <thead>
@@ -151,6 +174,7 @@ Design and comparison of both of the above improvement methods is also done here
 </tbody>
 </table>
 </center></br>
+From the above schematic, all nmos devices are biased in *subthreshold* region to improve power consumption of the circuit.<br>
 In this case the power consumption is least at only 4.22uA. Line regulation of around 81mV/V which is second best in all cases. Further the used of least valued resistor means that it has least amount of area consumption in all cases </br>
 </br>
 <center>
@@ -170,7 +194,7 @@ In this case the power consumption is least at only 4.22uA. Line regulation of a
 </table>
 </center></br>
 
-### • Case 4: Propposed BGR with symetrically biased cirrent mirror
+## • Case 4: Propposed BGR with symetrically biased cirrent mirror
 <center>
 <table>
 <thead>
@@ -180,11 +204,12 @@ In this case the power consumption is least at only 4.22uA. Line regulation of a
 </thead>
 <tbody>
   <tr>
-    <td>Fig. 14: Conventional BGR schematic</td>
+    <td>Fig. 13: Case 4 schematic</td>
   </tr>
 </tbody>
 </table>
 </center></br>
+From the above schematic, nmos stage is cascoded in addition to symetric bias to improve output. This type of biasing is little complex then previous cases but it achives best PSSR. Above circuit can also be modified to be used in sub 1Vref output voltages, this making attractive option of ultra low power applications. This particular biasing helps in better matching  of mos devices.<br>
 In this case current consumption is slightly increased as compared to previous case at 6.97uA . But this case has best line regulation of around 40mV/V which is best in all cases.</br>
 </br>
 <center>
@@ -197,8 +222,8 @@ In this case current consumption is slightly increased as compared to previous c
 </thead>
 <tbody>
   <tr>
-    <td>Fig. 15: Temperature Variation</td>
-    <td>Fig. 16: Supply Variation</td>
+    <td>Fig. 14: Temperature Variation</td>
+    <td>Fig. 15: Supply Variation</td>
   </tr>
 </tbody>
 </table>
@@ -216,8 +241,8 @@ In this case current consumption is slightly increased as compared to previous c
 </thead>
 <tbody>
   <tr>
-    <td>Fig. 17: Temperature Variation</td>
-    <td>Fig. 18: Supply Variation</td>
+    <td>Fig. 16: Temperature Variation summary </td>
+    <td>Fig. 17: Supply Variation summary</td>
   </tr>
 </tbody>
 </table>
@@ -226,7 +251,35 @@ In this case current consumption is slightly increased as compared to previous c
 
 | Case                   | Units | case1 | case2 | case3 | case4 |
 |------------------------|-------|-------|-------|-------|-------|
-| Supply Current         | uA    | 12.85 | 6.78  | 4.22  | 6.97  |
-| Temperature Coffecient | ppm/C | 14.1  | 4.23  | 41.9  | 4.29  |
-| Output Voltage         | V     | 2.11  | 1.43  | 1.17  | 1.58  |
-| Line regulation        | mV/V  | 640   | 230   | 81    | 40    |
+| Supply Current         | $uA$    | 12.85 | 6.78  | 4.22  | 6.97  |
+| Temperature Coffecient |ppm/&deg;C | 14.1  | 4.23  | 41.9  | 4.29  |
+| Output Voltage         | $V$     | 2.11  | 1.43  | 1.17  | 1.58  |
+| Line regulation        | $mV/V$  | 640   | 230   | 81    | 40    |
+| Area                   | $um^2$  | 202   | 170   | 110    | 170    |
+
+# Conclusion
+
+Different ways to improve the efficiency of conventional BGR circuit in terms of total power consumption and area consumption is sucessfully demonstrated. Case 3 circuit performs overall best in terms of area and power but Case 4 circuit is also an attractive option if PSRR is of most importance. 
+
+# Author:
+-  Piyush Verma, M-tech, Thapar Institute of Engeneering and Technology, Punjab
+
+# Acknowledgements:
+• <a href='https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/'>Cloud Based Analog IC Design Hackathon</a></br>
+• <a href='https://www.synopsys.com/'>Synopsys India</a></br>
+• <a href='https://www.vlsisystemdesign.com/'>VLSI System Design (VSD) Corp. Pvt. Ltd India</a></br>
+
+# References:
+[1] Sarangi, Santunu & Tripathy, Dhananjaya & Mahapatra, Subhra &  
+Rout, Saroj. (2020). A Power and Area Efficient CMOS Bandgap  
+Reference Circuit with an Integrated Voltage-Reference Branch. DOI:10.  
+31224/osf.io/4x9g8</br>
+[2] Wu, W., Zhiping, W., and Yongxue, Z. (2007). An Improved CMOS  
+Bandgap Reference with Self-biased Cascoded Current Mirrors. In 2007  
+IEEE Conference on Electron Devices and Solid-State Circuits, pages 945–  
+948. DOI: 10.1109/EDSSC.2007.4450282.
+[3] Lam, Y. and Ki, W. (2010). CMOS Bandgap References With SelfBiased Symmetrically Matched Current–Voltage Mirror and Extension of  
+Sub-1-V Design. IEEE Transactions on Very Large Scale Integration  
+(VLSI) Systems, 18(6):857–865, ISSN: 1063-8210, DOI:  
+10.1109/TVLSI.2009.2016204.
+
