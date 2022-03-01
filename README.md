@@ -19,7 +19,9 @@ The PSR of simple current mirror (CM) based BGR can be improved by using cascode
 
 # Proposed Bandgap Reference 
 Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison with traditional circuit 1(a). From the figure it  is clear that proposed circuit uses one bipolar device less in reference branch. The BJT Q2 is used for generation of PTAT voltage across the resistor R1 and voltage across it adds to  VREF. This modification reduces the total current and power consumption of the circuit is reduced by 33% and area required is also reduced.
-![Fig. 1: Conventional current mirror](images/pic2.PNG "title-1") ![Fig. 2: Conventional current mirror2](images/pic1.PNG "title-1")
+|![Fig. 1: Conventional current mirror](images/pic2.PNG "Fig. 1: Conventional current mirror ")| ![Fig. 2: Conventional current mirror](images/pic1.PNG "Fig. 2: Conventional current mirror")|
+|--|--|
+| Fig. 1: Conventional current mirror  | Fig. 2: Conventional current mirror |
 
 There are further improvements in PSR can be made to the above design using cascode current mirror [2] and symmetrically biasing branches [3] as shown in the figure below.
 ![Fig. 3: Conventional current mirror](images/pic3.PNG "title-3")
