@@ -263,6 +263,8 @@ In this case current consumption is slightly increased as compared to previous c
 | Line regulation        | mV/V  | 640   | 230   | 81    | 40    |
 | Area                   | um^2  | 202   | 170   | 110    | 170    |
 
+All of the proposed circuits (case 2-4) perorm better the conventional circuit (case 1)<br>
+
 # Conclusion
 
 Different ways to improve the efficiency of conventional BGR circuit in terms of total power consumption and area consumption is sucessfully demonstrated. Case 3 circuit performs overall best in terms of area and power but Case 4 circuit is also an attractive option if PSRR at the cost of slight increase in area and power. 
