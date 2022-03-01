@@ -22,4 +22,11 @@ Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison wi
 <p align="center">
 <img src="images/pic1.PNG"></br>
   Fig. 1: Conventional current mirror 
+<img src="images/pic2.PNG"></br>
+  Fig. 2: Conventional current mirror 
 </p>
+There are further improvements in PSR can be made to the above design using cascode current mirror [2] and symmetrically biasing both branches [3] as shown in the figure below.
+<p align="center">
+<img src="images/pic3.PNG"></br>
+  Fig. 3: Conventional current mirror 
+  </p>
