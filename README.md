@@ -65,7 +65,7 @@ The power-supply rejection (PSR) performance does not change significantly from 
 </thead>
 <tbody>
   <tr>
-    <td>Fig. 3: symmetric biasing current mirror based BGR circuit </td>
+    <td>Fig. 3: symetrically matched current mirror based BGR circuit </td>
   </tr>
 </tbody>
 </table>
