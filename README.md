@@ -251,7 +251,7 @@ In this case current consumption is slightly increased as compared to previous c
 </table>
 </center></br>
 </br>
-
+### Table for summary of key design aspects in above discussed cases
 | Case                   | Units | case1 | case2 | case3 | case4 |
 |------------------------|-------|-------|-------|-------|-------|
 | Supply Current         | uA    | 12.85 | 6.78  | 4.22  | 6.97  |
@@ -262,7 +262,7 @@ In this case current consumption is slightly increased as compared to previous c
 
 # Conclusion
 
-Different ways to improve the efficiency of conventional BGR circuit in terms of total power consumption and area consumption is sucessfully demonstrated. Case 3 circuit performs overall best in terms of area and power but Case 4 circuit is also an attractive option if PSRR is of most importance. 
+Different ways to improve the efficiency of conventional BGR circuit in terms of total power consumption and area consumption is sucessfully demonstrated. Case 3 circuit performs overall best in terms of area and power but Case 4 circuit is also an attractive option if PSRR at the cost of slight increase in area and power. 
 
 # Author:
 -  Piyush Verma, M-tech, Thapar Institute of Engeneering and Technology, Punjab
