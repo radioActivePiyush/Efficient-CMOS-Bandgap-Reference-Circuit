@@ -59,15 +59,14 @@ Design and comparison of both of the above improvement methods is also done here
 
 # Circuit Implementation 
 *For all designs PTAT currents Ix were designed to be around 3u A each.*
-
-####• Case 1: Conventional BGR
+#### • Case 1: Conventional BGR
 ![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
 
-####• Case 2: Propposed BGR
+#### • Case 2: Propposed BGR
 ![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
 
-####• Case 3: Propposed BGR with cascoded current mirror 
+#### • Case 3: Propposed BGR with cascoded current mirror 
 ![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
 
-####• Case 4: Propposed BGR with symetrically biased cirrent mirror
+#### • Case 4: Propposed BGR with symetrically biased cirrent mirror
 ![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
