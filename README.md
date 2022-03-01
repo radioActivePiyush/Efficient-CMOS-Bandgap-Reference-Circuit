@@ -57,8 +57,15 @@ Design and comparison of both of the above improvement methods is also done here
 *• Synopsys 28nm PDK:*
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
-# Circuit Implementation 
-*For all designs PTAT currents Ix were designed to be around 3u A each.*
+# Circuit Implementation and Simulations 
+*Few considerations for common to all schematic designs below*
+* For all designs PTAT currents **Ix** (labeled in schematics and figures above) were designed to be around **3u A**.
+* all mosfets use are of minimum dimensions. Although for real implementation dimensions can be increased to improve matching keeping W/L ratios same. 
+*  PNP BJT bipolar devices are used for generation of PTAT currents.
+* Ration of parallel BJTs for CTAT current generation is 4:1 for all designs.
+* Vcc (supply voltage) = 3.3v 
+* Temperature variation form -40 C to 125 C ,  Supply variation from 0v to 5v
+
 #### • Case 1: Conventional BGR
 <center>
 <table>
@@ -145,8 +152,8 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case1_temp_var.PNG"></br></th>
-    <th><img src="images/case1_supply_var.PNG"></br></th>
+    <th><img src="images/case3_temp_var.PNG"></br></th>
+    <th><img src="images/case3_supply_var.PNG"></br></th>
   </tr>
 </thead>
 <tbody>
