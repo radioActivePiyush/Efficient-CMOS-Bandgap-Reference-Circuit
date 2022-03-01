@@ -86,7 +86,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case1_temp_var.PNG"></br></th>
+    <th><img src="images/case1_temp_var_1.PNG"></br></th>
     <th><img src="images/case1_supply_var.PNG"></br></th>
   </tr>
 </thead>
@@ -119,7 +119,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case2_temp_var.PNG"></br></th>
+    <th><img src="images/case2_temp_var_1.PNG"></br></th>
     <th><img src="images/case2_supply_var.PNG"></br></th>
   </tr>
 </thead>
@@ -152,7 +152,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case3_temp_var.PNG"></br></th>
+    <th><img src="images/case3_temp_var_1.PNG"></br></th>
     <th><img src="images/case3_supply_var.PNG"></br></th>
   </tr>
 </thead>
@@ -185,7 +185,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case4_temp_var.PNG"></br></th>
+    <th><img src="images/case4_temp_var_1.PNG"></br></th>
     <th><img src="images/case4_supply_var.PNG"></br></th>
   </tr>
 </thead>
