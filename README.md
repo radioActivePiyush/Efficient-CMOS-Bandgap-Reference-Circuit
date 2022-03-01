@@ -22,6 +22,22 @@ Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison wi
 |![Fig. 1: Conventional current mirror](images/pic2.PNG "Fig. 1: Conventional current mirror ")| ![Fig. 2: Conventional current mirror](images/pic1.PNG "Fig. 2: Conventional current mirror")|
 |--|--|
 | Fig. 1: Conventional current mirror  | Fig. 2: Conventional current mirror |
+Calculations of R1 and R2 can be done by the formulas given  
+below
 
-There are further improvements in PSR can be made to the above design using cascode current mirror [2] and symmetrically biasing branches [3] as shown in the figure below.
-![Fig. 3: Conventional current mirror](images/pic3.PNG "title-3")
+    R1= Vt ln(4) / I1
+    where,	
+		Vt = thermal voltage of the semiconductor and its value at room temperature is approximately 25.8 mV
+		I1 = bias current of the Q1, Q2 transistors, here i have taken it to be 3uA.
+VR2 is the PTAT voltage across the resistor R2 and is given  by the equation below for the proposed architecture
+
+    VR2 = (R2/2R1) . VT . ln(4)
+For zero temparature cofficient of the circuit derivative of VREF with respect to temperature must be zero
+
+    enter code here
+  
+The power-supply rejection (PSR) performance does not change significantly from the traditional selfbiased BGR. The PSR can be improved by using 
+(a) cascode current mirrors [2] or 
+(b) symmetric biasing of both the branches [3] as shown in the figure below. 
+![Fig. 3: Conventional current mirror](images/pic3.PNG) "Fig. 3: symmetric biasing current mirror ")
+Design and comparison of both of the above improvement methods is also done here.
