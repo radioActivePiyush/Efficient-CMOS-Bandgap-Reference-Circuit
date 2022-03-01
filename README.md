@@ -82,7 +82,9 @@ Design and comparison of both of the above improvement methods is also done here
 </tbody>
 </table>
 </center> </br>
- This configuration had maximum current consumption of 12.85u A. Worst line regulation for for a sweep from 2 to 5v of around 640mV/V</br>
+ This configuration had maximum current consumption of 12.85u A. Worst line regulation for for a sweep from 2 to 5v of around 640mV/V.</br>
+ </br>
+ 
 <center>
 <table>
 <thead>
@@ -98,7 +100,7 @@ Design and comparison of both of the above improvement methods is also done here
   </tr>
 </tbody>
 </table>
-</center>
+</center></br>
 
 ### • Case 2: Propposed BGR
 <center>
@@ -116,6 +118,7 @@ Design and comparison of both of the above improvement methods is also done here
 </table>
 </center></br>
  In this configuration current consumption reduced by around 50% to 6.78u A  and line regulation also improved to around 230mV/V which is a great improvement over conventional design. Also use of smaller resistors in design reduces area covered.</br>
+ </br>
 <center>
 <table>
 <thead>
@@ -126,12 +129,12 @@ Design and comparison of both of the above improvement methods is also done here
 </thead>
 <tbody>
   <tr>
-    <td>Fig. 9: Temperature Variation</td>
-    <td>Fig. 10: Supply Variation</td>
+    <td>Fig. 8: Temperature Variation</td>
+    <td>Fig. 9: Supply Variation</td>
   </tr>
 </tbody>
 </table>
-</center>
+</center></br>
 
 ### • Case 3: Propposed BGR with cascoded current mirror 
 <center>
@@ -143,12 +146,13 @@ Design and comparison of both of the above improvement methods is also done here
 </thead>
 <tbody>
   <tr>
-    <td>Fig. 11: Case 3 schematic</td>
+    <td>Fig. 10: Case 3 schematic</td>
   </tr>
 </tbody>
 </table>
 </center></br>
 In this case the power consumption is least at only 4.22uA. Line regulation of around 81mV/V which is second best in all cases. Further the used of least valued resistor means that it has least amount of area consumption in all cases </br>
+</br>
 <center>
 <table>
 <thead>
@@ -159,12 +163,12 @@ In this case the power consumption is least at only 4.22uA. Line regulation of a
 </thead>
 <tbody>
   <tr>
-    <td>Fig. 12 : Temperature Variation</td>
-    <td>Fig. 13 : Supply Variation</td>
+    <td>Fig. 11 : Temperature Variation</td>
+    <td>Fig. 12 : Supply Variation</td>
   </tr>
 </tbody>
 </table>
-</center>
+</center></br>
 
 ### • Case 4: Propposed BGR with symetrically biased cirrent mirror
 <center>
@@ -182,6 +186,7 @@ In this case the power consumption is least at only 4.22uA. Line regulation of a
 </table>
 </center></br>
 In this case current consumption is slightly increased as compared to previous case at 6.97uA . But this case has best line regulation of around 40mV/V which is best in all cases.</br>
+</br>
 <center>
 <table>
 <thead>
@@ -216,8 +221,8 @@ In this case current consumption is slightly increased as compared to previous c
   </tr>
 </tbody>
 </table>
-</center>
-
+</center></br>
+</br>
 
 | Case                   | Units | case1 | case2 | case3 | case4 |
 |------------------------|-------|-------|-------|-------|-------|
