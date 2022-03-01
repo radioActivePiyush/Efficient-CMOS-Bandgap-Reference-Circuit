@@ -71,7 +71,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case1_sch.PNG"  width="400" height="300"></br></th>
+    <th><img src="images/case1_sch.PNG"  width="500" height="500"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -104,7 +104,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case2_sch.PNG" width="400" height="300"></br></th>
+    <th><img src="images/case2_sch.PNG" width="500" height="500"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -137,7 +137,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case3_sch.PNG" width="400" height="300"></br></th>
+    <th><img src="images/case3_sch.PNG" width="500" height="500"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -170,7 +170,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case4_sch.PNG" width="400" height="300"></br></th>
+    <th><img src="images/case4_sch.PNG" width="500" height="500"></br></th>
   </tr>
 </thead>
 <tbody>
