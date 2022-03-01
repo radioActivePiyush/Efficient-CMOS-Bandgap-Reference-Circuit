@@ -56,3 +56,18 @@ Design and comparison of both of the above improvement methods is also done here
 
 *• Synopsys 28nm PDK:*
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+
+# Circuit Implementation 
+*For all designs PTAT currents Ix were designed to be around 3u A each.*
+
+####• Case 1: Conventional BGR
+![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
+
+####• Case 2: Propposed BGR
+![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
+
+####• Case 3: Propposed BGR with cascoded current mirror 
+![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
+
+####• Case 4: Propposed BGR with symetrically biased cirrent mirror
+![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
