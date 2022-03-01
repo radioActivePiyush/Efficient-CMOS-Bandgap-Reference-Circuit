@@ -274,6 +274,6 @@ Different ways to improve the efficiency of conventional BGR circuit in terms of
 
 # References:
 [1] Sarangi, Santunu & Tripathy, Dhananjaya & Mahapatra, Subhra & Rout, Saroj. (2020). A Power and Area Efficient CMOS Bandgap Reference Circuit with an Integrated Voltage-Reference Branch. DOI:10.31224/osf.io/4x9g8</br>
-[2] Wu, W., Zhiping, W., and Yongxue, Z. (2007). An Improved CMOS Bandgap Reference with Self-biased Cascoded Current Mirrors. In 2007 IEEE Conference on Electron Devices and Solid-State Circuits, pages 945– 948. DOI: 10.1109/EDSSC.2007.4450282.
+[2] Wu, W., Zhiping, W., and Yongxue, Z. (2007). An Improved CMOS Bandgap Reference with Self-biased Cascoded Current Mirrors. In 2007 IEEE Conference on Electron Devices and Solid-State Circuits, pages 945– 948. DOI: 10.1109/EDSSC.2007.4450282.<br>
 [3] Lam, Y. and Ki, W. (2010). CMOS Bandgap References With SelfBiased Symmetrically Matched Current–Voltage Mirror and Extension of Sub-1-V Design. IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 18(6):857–865, ISSN: 1063-8210, DOI: 10.1109/TVLSI.2009.2016204.
 
