@@ -25,18 +25,6 @@ Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison wi
 
 <br />
 Calculations of R1 and R2 can be done by the formulas given  
-
-
-<center>
-|![Fig. 4: Conventional current mirror schematic](images/case1_sch.PNG "Fig. 4: Conventional current mirror schematic ")|
-|--|
-| Fig. 4: Conventional current mirror schematic |
-</center><br />
-<center>
-|![Fig. 5: case1_temp_var](images/case1_temp_var.PNG "Fig. 5: Temperature Variation")|![Fig. 6: case1_supply_var](images/case1_supply_varr.PNG "Fig. 6: Supply Variation")
-|--|--|
-| Fig. 5: Temperature Variation | Fig. 6: Supply Variation |
-</center><br />
 below
 
     R1= Vt ln(4) / I1
@@ -72,7 +60,16 @@ Design and comparison of both of the above improvement methods is also done here
 # Circuit Implementation 
 *For all designs PTAT currents Ix were designed to be around 3u A each.*
 #### • Case 1: Conventional BGR
-![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
+<center>
+|![Fig. 4: Conventional current mirror schematic](images/case1_sch.PNG "Fig. 4: Conventional current mirror schematic ")|
+|--|
+| Fig. 4: Conventional current mirror schematic |
+</center><br />
+<center>
+|![Fig. 5: case1_temp_var](images/case1_temp_var.PNG "Fig. 5: Temperature Variation")|![Fig. 6: case1_supply_var](images/case1_supply_varr.PNG "Fig. 6: Supply Variation")
+|--|--|
+| Fig. 5: Temperature Variation | Fig. 6: Supply Variation |
+</center><br />
 
 #### • Case 2: Propposed BGR
 ![Fig. 4: Conventional current mirror](images/pic4.PNG "Fig. 4: Conventional current mirror")
