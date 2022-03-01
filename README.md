@@ -66,12 +66,13 @@ Design and comparison of both of the above improvement methods is also done here
 * Vcc (supply voltage) = 3.3v 
 * Temperature variation form -40 C to 125 C ,  Supply variation from 0v to 5v
 
+
 ### • Case 1: Conventional BGR
 <center>
 <table>
 <thead>
   <tr>
-    <th><img src="images/case1_sch.PNG"></br></th>
+    <th><img src="images/case1_sch.PNG" width="500" height="500"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -80,8 +81,8 @@ Design and comparison of both of the above improvement methods is also done here
   </tr>
 </tbody>
 </table>
-</center>
- This configuration had maximum current consumption of 12.85u A. Worst line regulation for for a sweep from 2 to 5v of around 640mV/V
+</center> </br>
+ This configuration had maximum current consumption of 12.85u A. Worst line regulation for for a sweep from 2 to 5v of around 640mV/V</br>
 <center>
 <table>
 <thead>
@@ -104,7 +105,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case2_sch.PNG"></br></th>
+    <th><img src="images/case2_sch.PNG" width="500" height="500"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -113,8 +114,8 @@ Design and comparison of both of the above improvement methods is also done here
   </tr>
 </tbody>
 </table>
-</center>
- In this configuration current consumption reduced by around 50% to 6.78u A  and line regulation also improved to around 230mV/V which is a great improvement over conventional design. Also use of smaller resistors in design reduces area covered.
+</center></br>
+ In this configuration current consumption reduced by around 50% to 6.78u A  and line regulation also improved to around 230mV/V which is a great improvement over conventional design. Also use of smaller resistors in design reduces area covered.</br>
 <center>
 <table>
 <thead>
@@ -137,7 +138,7 @@ Design and comparison of both of the above improvement methods is also done here
 <table>
 <thead>
   <tr>
-    <th><img src="images/case3_sch.PNG"></br></th>
+    <th><img src="images/case3_sch.PNG"  width="500" height="500"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -146,8 +147,8 @@ Design and comparison of both of the above improvement methods is also done here
   </tr>
 </tbody>
 </table>
-</center>
-In this case the power consumption is least at only 4.22uA. Line regulation of around 81mV/V which is second best in all cases. Further the used of least valued resistor means that it has least amount of area consumption in all cases 
+</center></br>
+In this case the power consumption is least at only 4.22uA. Line regulation of around 81mV/V which is second best in all cases. Further the used of least valued resistor means that it has least amount of area consumption in all cases </br>
 <center>
 <table>
 <thead>
@@ -170,7 +171,7 @@ In this case the power consumption is least at only 4.22uA. Line regulation of a
 <table>
 <thead>
   <tr>
-    <th><img src="images/case4_sch.PNG"></br></th>
+    <th><img src="images/case4_sch.PNG"  width="500" height="500"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -179,8 +180,8 @@ In this case the power consumption is least at only 4.22uA. Line regulation of a
   </tr>
 </tbody>
 </table>
-</center>
-In this case current consumption is slightly increased as compared to previous case at 6.97uA . But this case has best line regulation of around 40mV/V which is best in all cases.
+</center></br>
+In this case current consumption is slightly increased as compared to previous case at 6.97uA . But this case has best line regulation of around 40mV/V which is best in all cases.</br>
 <center>
 <table>
 <thead>
@@ -196,7 +197,7 @@ In this case current consumption is slightly increased as compared to previous c
   </tr>
 </tbody>
 </table>
-</center>
+</center></br>
 
 # Summary of Results
 
