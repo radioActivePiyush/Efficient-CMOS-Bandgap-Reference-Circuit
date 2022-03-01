@@ -89,7 +89,7 @@ Design and comparison of both of the above improvement methods is also done here
 * For all designs PTAT currents **Ix** (labeled in schematics and figures above) were designed to be around **3u A**.
 * all mosfets use are of minimum dimensions. Although for real implementation dimensions can be increased to improve matching keeping W/L ratios same. 
 *  PNP BJT bipolar devices are used for generation of CTAT currents.
-* Ration of parallel BJTs for PTAT current generation is 4:1 for all designs.
+* Ratio of Q1:Q2 is 4:1 for all designs.
 * Vcc (supply voltage) = 3.3v 
 * Temperature variation form -40 C to 125 C ,  Supply variation from 0v to 5v
 
