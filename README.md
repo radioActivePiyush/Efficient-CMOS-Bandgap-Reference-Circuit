@@ -9,6 +9,7 @@
 *  [Circuit Implementation and Simulations](#CircuitImplementationandSimulations)
 * [Summary of Results](#SummaryofResults)
 * [Conclusion](#conclusion)
+*  [Challanges and Possible improvements](#Challanges)
 *  [Author](#Author)
 *  [Acknowledgements](#Acknowledgements)
 * [References](#References)
@@ -177,7 +178,7 @@ Design and comparison of both of the above improvement methods is also done here
 </tbody>
 </table>
 </center></br>
-From the above schematic, all nmos devices are biased in *subthreshold* region to improve power consumption of the circuit.<br>
+From the above schematic, all nmos devices are biased in subthreshold region to improve power consumption of the circuit.<br>
 In this case the power consumption is least at only 4.22uA. Line regulation of around 81mV/V which is second best in all cases. Further the used of least valued resistor means that it has least amount of area consumption in all cases </br>
 </br>
 <center>
@@ -212,7 +213,7 @@ In this case the power consumption is least at only 4.22uA. Line regulation of a
 </tbody>
 </table>
 </center></br>
-From the above schematic, nmos stage is cascoded in addition to symetric bias to improve output. This type of biasing is little complex then previous cases but it achives best PSSR. Above circuit can also be modified to be used in sub 1Vref output voltages, this making attractive option of ultra low power applications. This particular biasing helps in better matching  of mos devices.<br>
+From the above schematic, nmos stage is cascoded in addition to symetric bias to improve output. This type of biasing is little complex then previous cases but it achives best PSSR. Above circuit can also be modified to be used in sub 1V supply voltages, this making attractive option of ultra low power applications. This particular biasing helps in better matching  of mos devices.<br>
 In this case current consumption is slightly increased as compared to previous case at 6.97uA . But this case has best line regulation of around 40mV/V which is best in all cases.</br>
 </br>
 <center>
@@ -268,6 +269,20 @@ All of the proposed circuits (case 2-4) perorm better the conventional circuit (
 # Conclusion
 
 Different ways to improve the efficiency of conventional BGR circuit in terms of total power consumption and area consumption is sucessfully demonstrated. Case 3 circuit performs overall best in terms of area and power but Case 4 circuit is also an attractive option if PSRR at the cost of slight increase in area and power. 
+
+# Challanges and Possible improvements
+
+**Challanges**
+
+ - Setting correct operating point for all mosfets is dufficult.<br>
+ - Balancing of CTAT and PTAT voltages with correct values of R1 and R2
+   is challanging and time consuming.<br>
+
+**Possible improvements**
+
+ - Case 4 circuit can be extended to sub 1v supply voltage not discussed here.
+ - research on different types of startup circuits and their effect on perfomance can also be done <br>
+
 
 # Author:
 -  Piyush Verma, M-tech, Thapar Institute of Engeneering and Technology, Punjab
