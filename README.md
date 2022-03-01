@@ -58,7 +58,7 @@ Design and comparison of both of the above improvement methods is also done here
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 # Circuit Implementation and Simulations 
-*Few considerations for common to all schematic designs below*
+*Few considerations common to all schematic designs below*
 * For all designs PTAT currents **Ix** (labeled in schematics and figures above) were designed to be around **3u A**.
 * all mosfets use are of minimum dimensions. Although for real implementation dimensions can be increased to improve matching keeping W/L ratios same. 
 *  PNP BJT bipolar devices are used for generation of PTAT currents.
@@ -66,12 +66,12 @@ Design and comparison of both of the above improvement methods is also done here
 * Vcc (supply voltage) = 3.3v 
 * Temperature variation form -40 C to 125 C ,  Supply variation from 0v to 5v
 
-#### • Case 1: Conventional BGR
+### • Case 1: Conventional BGR
 <center>
 <table>
 <thead>
   <tr>
-    <th><img src="images/case1_sch.PNG"  width="500" height="500"></br></th>
+    <th><img src="images/case1_sch.PNG"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -81,7 +81,7 @@ Design and comparison of both of the above improvement methods is also done here
 </tbody>
 </table>
 </center>
-
+ This configuration had maximum current consumption of 12.85u A. Worst line regulation for for a sweep from 2 to 5v of around 640mV/V
 <center>
 <table>
 <thead>
@@ -99,12 +99,12 @@ Design and comparison of both of the above improvement methods is also done here
 </table>
 </center>
 
-#### • Case 2: Propposed BGR
+### • Case 2: Propposed BGR
 <center>
 <table>
 <thead>
   <tr>
-    <th><img src="images/case2_sch.PNG" width="500" height="500"></br></th>
+    <th><img src="images/case2_sch.PNG"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -114,7 +114,7 @@ Design and comparison of both of the above improvement methods is also done here
 </tbody>
 </table>
 </center>
-
+ In this configuration current consumption reduced by around 50% to 6.78u A  and line regulation also improved to around 230mV/V which is a great improvement over conventional design. Also use of smaller resistors in design reduces area covered.
 <center>
 <table>
 <thead>
@@ -132,12 +132,12 @@ Design and comparison of both of the above improvement methods is also done here
 </table>
 </center>
 
-#### • Case 3: Propposed BGR with cascoded current mirror 
+### • Case 3: Propposed BGR with cascoded current mirror 
 <center>
 <table>
 <thead>
   <tr>
-    <th><img src="images/case3_sch.PNG" width="500" height="500"></br></th>
+    <th><img src="images/case3_sch.PNG"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -147,7 +147,7 @@ Design and comparison of both of the above improvement methods is also done here
 </tbody>
 </table>
 </center>
-
+In this case the power consumption is least at only 4.22uA. Line regulation of around 81mV/V which is second best in all cases. Further the used of least valued resistor means that it has least amount of area consumption in all cases 
 <center>
 <table>
 <thead>
@@ -165,12 +165,12 @@ Design and comparison of both of the above improvement methods is also done here
 </table>
 </center>
 
-#### • Case 4: Propposed BGR with symetrically biased cirrent mirror
+### • Case 4: Propposed BGR with symetrically biased cirrent mirror
 <center>
 <table>
 <thead>
   <tr>
-    <th><img src="images/case4_sch.PNG" width="500" height="500"></br></th>
+    <th><img src="images/case4_sch.PNG"></br></th>
   </tr>
 </thead>
 <tbody>
@@ -180,7 +180,7 @@ Design and comparison of both of the above improvement methods is also done here
 </tbody>
 </table>
 </center>
-
+In this case current consumption is slightly increased as compared to previous case at 6.97uA . But this case has best line regulation of around 40mV/V which is best in all cases.
 <center>
 <table>
 <thead>
@@ -197,3 +197,30 @@ Design and comparison of both of the above improvement methods is also done here
 </tbody>
 </table>
 </center>
+
+# Summary of Results
+
+<center>
+<table>
+<thead>
+  <tr>
+    <th><img src="images/all_temp.PNG"></br></th>
+    <th><img src="images/all_supply.PNG"></br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fig. 17: Temperature Variation</td>
+    <td>Fig. 18: Supply Variation</td>
+  </tr>
+</tbody>
+</table>
+</center>
+
+
+| Case                   | Units | case1 | case2 | case3 | case4 |
+|------------------------|-------|-------|-------|-------|-------|
+| Supply Current         | uA    | 12.85 | 6.78  | 4.22  | 6.97  |
+| Temperature Coffecient | ppm/C | 14.1  | 4.23  | 41.9  | 4.29  |
+| Output Voltage         | V     | 2.11  | 1.43  | 1.17  | 1.58  |
+| Line regulation        | mV/V  | 640   | 230   | 81    | 40    |
