@@ -39,7 +39,7 @@ Figure 1(b) shows the core part of the proposed BGR circuit [1] in comparison wi
 Calculations of R1 and R2 can be done by the formulas given  
 below
 
-> $R_1= V_t . ln(4) / I_x$ 
+> $$R_1= V_t . ln(4) / I_x$$ 
 >
 >where,	
 >$V_t$ = thermal voltage of the semiconductor and its value at room temperature is approximately $25.8 mV$ 
@@ -51,7 +51,7 @@ $V_{R2}$ is the PTAT voltage across the resistor $R_2$ and is given  by the equa
 
 For zero temparature cofficient of the circuit derivative of VREF with respect to temperature must be zero. <br>
 
-> $dV_{REF}/dT$ = ($dV_{BE2}+\alpha V_t)/dT$ = 0
+> $$dV_{REF}/dT$$ = ($dV_{BE2}+\alpha V_t)/dT$$ = 0
 >
 >   where,
 >   $\alpha$ = $(R_2/2R1).ln(N)$  is a constant. Assuming $dVT/dT$ = 85$m/°C$
